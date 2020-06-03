@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/survey-form/static/css/main.5346f03d.chunk.css",
-    "main.js": "/survey-form/static/js/main.271e81d1.chunk.js",
-    "main.js.map": "/survey-form/static/js/main.271e81d1.chunk.js.map",
-    "runtime-main.js": "/survey-form/static/js/runtime-main.ff9970de.js",
-    "runtime-main.js.map": "/survey-form/static/js/runtime-main.ff9970de.js.map",
-    "static/js/2.7c9845f5.chunk.js": "/survey-form/static/js/2.7c9845f5.chunk.js",
-    "static/js/2.7c9845f5.chunk.js.map": "/survey-form/static/js/2.7c9845f5.chunk.js.map",
-    "index.html": "/survey-form/index.html",
-    "precache-manifest.f9bb794353ba9b483f542565bcb36c47.js": "/survey-form/precache-manifest.f9bb794353ba9b483f542565bcb36c47.js",
-    "service-worker.js": "/survey-form/service-worker.js",
-    "static/css/main.5346f03d.chunk.css.map": "/survey-form/static/css/main.5346f03d.chunk.css.map",
-    "static/js/2.7c9845f5.chunk.js.LICENSE.txt": "/survey-form/static/js/2.7c9845f5.chunk.js.LICENSE.txt"
+    "main.css": "/survey-form-repo/static/css/main.5346f03d.chunk.css",
+    "main.js": "/survey-form-repo/static/js/main.271e81d1.chunk.js",
+    "main.js.map": "/survey-form-repo/static/js/main.271e81d1.chunk.js.map",
+    "runtime-main.js": "/survey-form-repo/static/js/runtime-main.dbb856b3.js",
+    "runtime-main.js.map": "/survey-form-repo/static/js/runtime-main.dbb856b3.js.map",
+    "static/js/2.7c9845f5.chunk.js": "/survey-form-repo/static/js/2.7c9845f5.chunk.js",
+    "static/js/2.7c9845f5.chunk.js.map": "/survey-form-repo/static/js/2.7c9845f5.chunk.js.map",
+    "index.html": "/survey-form-repo/index.html",
+    "precache-manifest.e0d39ab58a2aebd5f942afaa355178b8.js": "/survey-form-repo/precache-manifest.e0d39ab58a2aebd5f942afaa355178b8.js",
+    "service-worker.js": "/survey-form-repo/service-worker.js",
+    "static/css/main.5346f03d.chunk.css.map": "/survey-form-repo/static/css/main.5346f03d.chunk.css.map",
+    "static/js/2.7c9845f5.chunk.js.LICENSE.txt": "/survey-form-repo/static/js/2.7c9845f5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff9970de.js",
+    "static/js/runtime-main.dbb856b3.js",
     "static/js/2.7c9845f5.chunk.js",
     "static/css/main.5346f03d.chunk.css",
     "static/js/main.271e81d1.chunk.js"

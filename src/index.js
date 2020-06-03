@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import MyForm from './myForm';
 import './style.css';
-import { HashRouter } from 'react-router-dom';
+//import { HashRouter } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
@@ -19,4 +19,4 @@ class App extends Component {
   }
 }
 
-render(<HashRouter basename='/'><App /></HashRouter>, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
