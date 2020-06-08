@@ -11,7 +11,7 @@ export default class MyForm extends React.Component {
         'tag': 'input',
         'type': 'radio',
         'name': 'intro1',
-        'cf-questions': "Hi there! I'm SalonBot from the Triangle Group.. 😊",
+        'cf-questions': "Click on this 👇🏻 button to respond..",
         'cf-label': 'Hi.. 🙌🏻',
         'value': 'Hi..'
       },
@@ -19,7 +19,7 @@ export default class MyForm extends React.Component {
         'tag': 'input',
         'type': 'radio',
         'name': 'intro2',
-        'cf-questions': "I hope you're doing well and enjoying the lockdown..",
+        'cf-questions': "Great! I hope you're doing well and enjoying the lockdown..",
         'cf-label': 'Yeah 🤗',
         'value': 'Yeah',
       },
@@ -76,6 +76,15 @@ export default class MyForm extends React.Component {
         'cf-label': 'Auburn',
         'value': 'Auburn',
         'cf-image': 'https://www.clairol.com/m/master/products/new_swatches/00070018116758_m.png'
+      },
+      {
+        'tag': 'input',
+        'type': 'radio',
+        'name': 'hair_colour',
+        'cf-questions': 'What is the natural color of your hair?',
+        'cf-label': 'Grey / White',
+        'value': 'Grey / White',
+        'cf-image': 'https://cdn.shopify.com/s/files/1/2547/4568/products/18si-silver_1024x1024.jpg?v=1552265498'
       },
 
       // Question 2
@@ -649,7 +658,7 @@ export default class MyForm extends React.Component {
         'name': 'gender',
         'cf-questions': "Your gender from these: ",
         'cf-label': "She 👩",
-        'value': "Child",
+        'value': "She",
       },
       {
         'tag': 'input',
@@ -657,7 +666,7 @@ export default class MyForm extends React.Component {
         'name': 'gender',
         'cf-questions': 'Your age group from these:',
         'cf-label': "He 👨",
-        'value': "Adult",
+        'value': "He",
       },
 
       {
@@ -672,7 +681,7 @@ export default class MyForm extends React.Component {
         'tag': 'input',
         'type': 'radio',
         'name': 'survey_experience',
-        'cf-questions': "We're done. How was your experience taking to me?",
+        'cf-questions': "We're done. You can still go back and change any answers you wish to. \nSo, how was your experience taking to me?",
         'cf-label': 'Great.. 👍🏻',
         'value': 'Great',
       },
@@ -689,7 +698,7 @@ export default class MyForm extends React.Component {
         'tag': 'input',
         'type': 'radio',
         'name': 'bye',
-        'cf-questions': 'It has been awesome talking to you. Thank you so much for sharing your experiences.. 🤗🙌🏻',
+        'cf-questions': "It's been awesome talking to you. Thank you so much for sharing your experiences.. 🤗🙌🏻",
         'cf-label': 'Bye.. 🙌🏻',
         'value': 'Bye',
       },
@@ -711,6 +720,7 @@ export default class MyForm extends React.Component {
       },
       tags: this.formFields
     });
+    this.cf.addRobotChatResponse("Hi there! I'm SalonBot from the Triangle Group.. 😊")
     this.elem.appendChild(this.cf.el);
   }
   
