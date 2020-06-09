@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/survey-form-repo/precache-manifest.7683c192c3ca47a2ae531b893fd48ec4.js"
+  "/survey-form-repo/precache-manifest.cfe35465fdd27296018a97a462d47571.js"
 );
 
 self.addEventListener('message', (event) => {
